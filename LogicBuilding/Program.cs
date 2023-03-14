@@ -20,7 +20,8 @@ namespace LogicBuilding
                     "Choose 3: Check Giiven Number IS positive Or Not\n"+
                     "Choose 4: Check Largest Among Two Numbers\n" +
                     "Choose 5: Check Swap Numbers Program\n"+
-                    "Choose 6: To Stop running Program\n");
+                    "Choose 6: Check a Number Which IS Devisible By Two\n"+
+                    "Choose 7: To Stop running Program\n");
                 int option = Convert.ToInt32(Console.ReadLine());
                 switch (option)
                 {
@@ -40,6 +41,9 @@ namespace LogicBuilding
                         SwapNumbersProgram.SwapNumbers();
                         break;
                     case 6:
+                        NumberDivisibleByTwo.NumberCheck();
+                        break;
+                    case 7:
                         flag = true;
                         break;
                 }
