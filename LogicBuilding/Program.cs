@@ -19,7 +19,8 @@ namespace LogicBuilding
                     "Choose 2: Check Odd Numbers In Given Range\n"+
                     "Choose 3: Check Giiven Number IS positive Or Not\n"+
                     "Choose 4: Check Largest Among Two Numbers\n" +
-                    "Choose 5: To Stop running Program\n");
+                    "Choose 5: Check Swap Numbers Program\n"+
+                    "Choose 6: To Stop running Program\n");
                 int option = Convert.ToInt32(Console.ReadLine());
                 switch (option)
                 {
@@ -36,6 +37,9 @@ namespace LogicBuilding
                         LargestOfTwo.LargestNumber();
                         break;
                     case 5:
+                        SwapNumbersProgram.SwapNumbers();
+                        break;
+                    case 6:
                         flag = true;
                         break;
                 }
