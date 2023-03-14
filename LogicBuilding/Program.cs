@@ -17,8 +17,9 @@ namespace LogicBuilding
                 Console.WriteLine("\nChoose a Option To get Output Of desired Program\n" + "" +
                     "Choose 1: Check Odd Even Number Program\n" + "" +
                     "Choose 2: Check Odd Numbers In Given Range\n"+
-                    "Choose 3: Check Giiven Number IS positive Or Not\n"+"" +
-                    "Choose 4: To Stop running Program\n");
+                    "Choose 3: Check Giiven Number IS positive Or Not\n"+
+                    "Choose 4: Check Largest Among Two Numbers\n" +
+                    "Choose 5: To Stop running Program\n");
                 int option = Convert.ToInt32(Console.ReadLine());
                 switch (option)
                 {
@@ -32,6 +33,9 @@ namespace LogicBuilding
                         PositiveNumbers.PositiveOrNot();
                         break;
                     case 4:
+                        LargestOfTwo.LargestNumber();
+                        break;
+                    case 5:
                         flag = true;
                         break;
                 }

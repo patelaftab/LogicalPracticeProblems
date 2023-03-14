@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LargestOfTwo.cs" />
     <Compile Include="OddEven.cs" />
     <Compile Include="OddNumbers.cs" />
     <Compile Include="PositiveNumbers.cs" />
