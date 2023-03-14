@@ -14,19 +14,23 @@ namespace LogicBuilding
             bool flag = false;
             while (!flag)
             {
-                Console.WriteLine("\nChoose a Option To get Output Of desired Program\n"+"" +
-                    "Choose 1: Check Odd Even Number Program\n");
-                int option=Convert.ToInt32(Console.ReadLine());
-                switch(option)
+                Console.WriteLine("\nChoose a Option To get Output Of desired Program\n" + "" +
+                    "Choose 1: Check Odd Even Number Program\n" + "" +
+                    "Choose 2: Check Odd Numbers In Given Range\n");
+                int option = Convert.ToInt32(Console.ReadLine());
+                switch (option)
                 {
                     case 1:
                         OddEven.EvenOddNumbers();
+                        break;
+                    case 2:
+                        OddNumbers.ChekingOddNumbers();
                         break;
                     default:
                         Console.WriteLine("Choose a valid Options");
                         break;
                 }
-                
+
             }
             Console.ReadLine();
         }
