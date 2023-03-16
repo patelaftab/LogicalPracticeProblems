@@ -49,6 +49,7 @@
     <Compile Include="NumberDivisibleByTwo.cs" />
     <Compile Include="OddEven.cs" />
     <Compile Include="OddNumbers.cs" />
+    <Compile Include="PalindromNumber.cs" />
     <Compile Include="PositiveNumbers.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
