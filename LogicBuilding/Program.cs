@@ -22,8 +22,9 @@ namespace LogicBuilding
                     "Choose 5: Check Swap Numbers Program\n" +
                     "Choose 6: Check a Number Which IS Devisible By Two\n" +
                     "Choose 7: Check Multiple Of 3 And 5\n" +
-                    "Choose 8: Check Printing Of Multiple Of 17"+
-                    "Choose 9: To Stop running Program\n");
+                    "Choose 8: Check Printing Of Multiple Of 17\n"+
+                    "Choose 9: Check Sum Of Digits Of Numbers\n"+
+                    "Choose 10: To Stop running Program\n");
                 int option = Convert.ToInt32(Console.ReadLine());
                 switch (option)
                 {
@@ -52,6 +53,9 @@ namespace LogicBuilding
                         MultipleOf17.PrintingMultipleof17();
                         break;
                     case 9:
+                        SumOfNumbers.SumOfDigitOfNumbers();
+                        break;
+                    case 10:
                         flag = true;
                         break;
                 }
