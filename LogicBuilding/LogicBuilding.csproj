@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="CheckingMultiple.cs" />
     <Compile Include="LargestOfTwo.cs" />
+    <Compile Include="MultipleOf17.cs" />
     <Compile Include="NumberDivisibleByTwo.cs" />
     <Compile Include="OddEven.cs" />
     <Compile Include="OddNumbers.cs" />
