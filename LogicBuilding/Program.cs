@@ -24,7 +24,8 @@ namespace LogicBuilding
                     "Choose 7: Check Multiple Of 3 And 5\n" +
                     "Choose 8: Check Printing Of Multiple Of 17\n"+
                     "Choose 9: Check Sum Of Digits Of Numbers\n"+
-                    "Choose 10: To Stop running Program\n");
+                    "Choose 10: Check REverse Number Program\n"+
+                    "Choose 11: To Stop running Program\n");
                 int option = Convert.ToInt32(Console.ReadLine());
                 switch (option)
                 {
@@ -56,6 +57,9 @@ namespace LogicBuilding
                         SumOfNumbers.SumOfDigitOfNumbers();
                         break;
                     case 10:
+                        ReveseNumbers.ReversingNumber();
+                        break;
+                    case 11:
                         flag = true;
                         break;
                 }
